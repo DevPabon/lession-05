@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top-section{
+    padding: 150px 20px 100px 150px;
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    height: 600px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+.half-width h1{
+    font-size: 55px;
+    font-weight: 500;
+}
+.half-width p{
+    color: grey;
+    padding: 30px 0px;
+}
+.highlight{
+    font-size: 40px;
+    color: #EC4C7A;
+    font-weight: 900 !important;
+    padding-top: 20px;
+}
+.profile-img{
+    width: 100%;
+    padding-left: 100px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 7px;
+    background-image: linear-gradient(90deg, #e64588, #f82a5d);
+}
+.btn:hover{
+    color: #000;
+    font-size: 18px;
+    background-image: linear-gradient(90deg,  #f82a5d, #e64588);
+}
+.bio-section{
+    padding: 200px 0px;
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.bio{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.work{
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.work h1, .client-area h1{
+    font-size: 50px;
+    font-weight: 500px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.work-img{
+    padding: 0 70px 0px 80px;
+}
+.work-img img{
+    float: left;
+    width: 30%;
+    padding: 0  20px;
+}
+.client-area{
+    padding-top: 100px;
+    text-align: center;
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.client-review img{
+    width: 5%;
+    border-radius: 50%;
+}
+.client-review h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.client-review h5{
+    font-weight: 20px;
+    padding-bottom: 50px;
+    font-weight: 100px;
+}
+.client-review p{
+    font-size: 20px;
+    padding-bottom: 50px;
+    line-height: 28px;
+}
+.client-msg{
+    background-image: linear-gradient(90deg, #EC4F92, #ED4B6E);
+    width: 45%;
+    margin: auto;
+    padding: 50px 0px;
+    color: #fff;
+    font-size: 20px;
+}
+.contact{
+    padding-top: 200px;
+    height: 400px;
+}
+.contact h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+form{
+    margin-left: 42%;
+    padding-top: 30px;
+}
+input:focus, textarea:focus{
+    font-size: 20px;
+    border: 2px solid green;
+}
+footer{
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer-link{
+    text-decoration: none;
+    color: #ED4B6F;
+}
+
+
+
+
